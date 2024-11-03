@@ -1,0 +1,29 @@
+<tool id="liana" name="liana" version="@TOOL_VERSION@+galaxy@VERSION_SUFFIX@" profile="@PROFILE@">
+    <description>All-in-one framework for cell-cell communication</description>
+    <macros>
+        <import>macros.xml</import>
+    </macros>
+    <expand macro="edam"/>
+    <expand macro="requirements"/>
+    <command detect_errors="exit_code"><![CDATA[
+
+    ]]></command>
+    <configfiles>
+        <configfile name="scp_script"><![CDATA[
+
+        ]]></configfile>
+    </configfiles>
+    <inputs>
+
+    </inputs>
+    <outputs>
+
+    </outputs>
+    <tests>
+
+    </tests>
+    <help><![CDATA[
+
+    ]]></help>
+    <expand macro="citations" />
+</tool>

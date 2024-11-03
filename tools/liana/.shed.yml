@@ -1,0 +1,15 @@
+name: liana
+owner: iuc
+description: All-in-one framework for cell-cell communication
+homepage_url: https://github.com/saezlab/liana-py
+long_description: LIANA+ is a scalable framework that adapts and extends existing methods and knowledge to study cell-cell communication in single-cell, spatially-resolved, and multi-modal omics data. It is part of the scverse ecosystem, and relies on AnnData & MuData objects as input.
+remote_repository_url: https://github.com/galaxyproject/tools-iuc/tree/master/tools/liana
+categories: 
+  - Single Cell
+  - Spatial Omics
+  - Transcriptomics
+  - Epigenetics
+suite:
+  name: "suite_liana"
+  description: "A suite of Galaxy tools designed to work with the liana-tools collection."
+  type: repository_suite_definition

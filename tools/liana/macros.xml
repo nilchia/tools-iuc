@@ -1,0 +1,24 @@
+<macros>
+    <token name="@TOOL_VERSION@">1.4.0</token>
+    <token name="@VERSION_SUFFIX@">0</token>
+    <token name="@PROFILE@">23.0</token>
+    <xml name="requirements">
+        <requirements>
+            <requirement type="package" version="@TOOL_VERSION@">liana</requirement>
+            <yield/>
+        </requirements>
+    </xml>
+    <xml name="edam">
+        <edam_topics>
+            <edam_topic>topic_4019</edam_topic>
+            <edam_topic>topic_4028</edam_topic>
+            <edam_topic>topic_3308</edam_topic>
+            <edam_topic>/topic_3295</edam_topic>
+        </edam_topics>
+    </xml>
+    <xml name="citations">
+        <citations>
+            <citation type="doi">10.1038/s41556-024-01469-w</citation>
+        </citations>
+    </xml>
+</macros>
