@@ -1,5 +1,5 @@
 ---
-applyTo: "tools/**, data_managers/**, tool_collections/**, suites/**, deprecated/**, macros/**"
+applyTo: "tools/**,data_managers/**,tool_collections/**,suites/**,deprecated/**,macros/**"
 ---
 
 # Galaxy Tool Wrapper Review Guidance
