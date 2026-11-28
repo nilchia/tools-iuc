@@ -27,8 +27,8 @@ sibling tool or convention you followed.
 - Macros shared across suites live in `macros/` at the repo root.
 - CI runs `planemo lint`, `planemo test`, `flake8` (Python) and `styler` (R);
   see `.github/workflows/`.
-- Read [CONTRIBUTING.md](../../CONTRIBUTING.md) and
-  [docs/guide_for_reviewers.md](../../docs/guide_for_reviewers.md).
+- Read [CONTRIBUTING.md](../CONTRIBUTING.md) and
+  [docs/guide_for_reviewers.md](../docs/guide_for_reviewers.md).
 - If AI assisted a contribution, identify the AI harness and model in the PR
   description.
 
