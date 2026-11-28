@@ -106,7 +106,7 @@ website/tool_source_store.sqlite-wal
 website/.history-cache/
 
 # AI agent skill sync state (machine-specific)
-skills-lock.json
+/skills-lock.json
 
 # Vendored Galaxy tool-dev skill (synced from galaxyproject/galaxy-skills);
 # commit only the tool-dev skill, ignore other locally synced skills
