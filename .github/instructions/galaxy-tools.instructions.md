@@ -11,9 +11,9 @@ findings — the goal is fewer false positives, not fewer comments.
 
 ## Real correctness issues — always report
 
-- Cheetah truthiness on booleans/selects: `#if $param:` is always true for a
-  select whose value is the string `False`. Requires
-  `#if str($param) == 'True':` (exact casing match).
+- Cheetah truthiness on selects: `#if $select:` is true for any non-empty
+  option value, including `False`. Compare `str($select)` to the option
+  value. `#if $bool_param` is fine for booleans.
 - Falsy zero: `#if $int_param:` skips the flag when the value is 0. Use
   `#if str($int_param):`.
 - Cheetah (`#if`, `#for`) inside an `<xml>` macro — does not work; must be a
