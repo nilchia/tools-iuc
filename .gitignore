@@ -109,8 +109,9 @@ website/.history-cache/
 /skills-lock.json
 
 # Vendored Galaxy tool-dev skill (synced from galaxyproject/galaxy-skills);
-# commit only the tool-dev skill, ignore other locally synced skills
+# commit only the tool-dev skill and README, ignore other locally synced skills
 .agents/*
 !.agents/skills/
 .agents/skills/*
+!.agents/skills/README.md
 !.agents/skills/tool-dev/

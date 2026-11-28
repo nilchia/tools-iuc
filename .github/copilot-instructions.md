@@ -31,12 +31,3 @@ sibling tool or convention you followed.
   [docs/guide_for_reviewers.md](../docs/guide_for_reviewers.md).
 - If AI assisted a contribution, identify the AI harness and model in the PR
   description.
-
-## Attribution
-
-The `tool-dev` skill is vendored from
-[galaxyproject/galaxy-skills](https://github.com/galaxyproject/galaxy-skills)
-(`dev-skills/tool-dev`), MIT licensed © Galaxy Skills Contributors. Do not
-edit the vendored files in this repository; propose changes upstream and
-re-sync. `skills-lock.json` records sync state and is intentionally
-git-ignored.
