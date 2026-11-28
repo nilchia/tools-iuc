@@ -36,8 +36,8 @@ findings — the goal is fewer false positives, not fewer comments.
 
 ## Existing conventions — do NOT flag these as problems
 
-- `detect_errors="exit_code"` on script/configfile-based wrappers (Python/R)
-  is intentional; `aggressive` false-fails on benign library warnings.
+- `detect_errors="exit_code"` on existing tools whose `<command>`/stdio
+  handling the PR does not touch; don't ask to change it in passing.
 - Older tools using RST help, bare `name=` without `argument=`, or older
   profile versions predate current guidance — only raise these for new tools
   or when the touched lines are affected. Suggest modernization at most as a
